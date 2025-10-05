@@ -1,0 +1,1190 @@
+*{
+    padding: 0;
+}
+body{
+    background-color: rgb(58, 52, 52);
+}
+.banner{
+    width: 100px;
+    height: 250vh;   /*increase heaight of the page */
+    overflow: hidden;
+}
+.slider{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+}
+.overlay{
+    position: absolute;
+    top: 0px;
+}
+.logo{
+    height: 500px;
+    width: 500px;
+    position: relative;bottom: 180px;
+} 
+
+
+
+.attract {
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 5px; 
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    font-size: 15px;
+    color: rgb(211, 200, 200); 
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    left: 350px;
+    top: 700px;
+    
+}
+.attract:hover{
+    color: rgb(247, 241, 241);
+}
+
+
+.menu li{
+    float: left;
+    list-style-type: none;
+    color: white;
+    position: relative;
+    left: 450px;
+    top: 35px;
+    border: 1px solid transparent;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 70px;
+    border-right:1px solid transparent;
+    
+    
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif; 
+    font-family: 'Oswald', sans-serif; 
+    font-size: 15px;
+    color: rgb(170, 170, 170); 
+   
+    
+    letter-spacing: 1.5px;
+
+
+}
+.menu a:hover{
+    
+    color: rgb(247, 241, 241);
+}
+.peop{
+    color: rgb(170, 170, 170);
+    font-size: 25px;
+    position: absolute;
+    left: 1450px;
+    top: 33px;
+    cursor: pointer;
+   
+}
+.peop:hover {
+        color: rgb(247, 241, 241);
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+      }
+      
+      .video-container {
+        width: 100%;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      #background-video {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      .welcome{
+        color: white;
+        width: 500px;
+        height: 50px;
+        position: absolute;
+        left: 500px;
+        top: 400px;
+        cursor: pointer;
+      }
+.state{
+    font-size: 20px;
+    color: white;
+    font-family: Arial;
+    position: absolute;
+    left: 300px;
+    top: 450px;
+
+}
+.offer pre {
+    color: yellow;
+    font-family: Comic Sans MS;
+    font-size: 30px;
+    padding-left: 660px;
+    padding-right: 655px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: absolute;
+    top: 820px;
+    background-color: rgba(20, 20, 17, 0.91);
+    
+}
+
+.v img{
+    height: 400px;
+    position: absolute;
+    top: 970px;
+
+} 
+
+.v img {
+    filter: grayscale(50%);
+    transition: filter 0.3s ease;
+    border: 1px solid black;
+}
+
+.v:hover img {
+    cursor: pointer;
+    filter: grayscale(0%);
+}
+
+.w img{
+    height: 400px;
+    position: absolute;
+    top: 965px;
+    left: 855px;
+    width: 663.8px;
+    height: 405px;
+    border-bottom: 1px solid rgb(83, 79, 79);
+    filter: grayscale(50%);
+    transition: filter 0.3s ease;
+}
+.w:hover img {
+    filter: grayscale(0%);
+}
+
+.portion{
+    position: absolute;
+    top: 1420px;
+    left: 100px;
+}
+.f{
+    border: 1px solid black;
+    background-color: rgb(246, 246, 246);
+    padding-left: 440px;
+    padding-right: 900px; 
+    padding-bottom: 560px;
+    position: absolute;
+    top: 1400px;
+    left: 80px;
+    right: 200px;
+
+}
+.content{
+    
+    height: 500px;
+    width: 1340px;
+    margin-top: 558px;
+    margin-left: 0px;
+    position: relative;
+    right: 440px;
+}
+
+.whiteh img{
+    background-color: transparent;
+}
+
+.white {
+    height: 150px;
+    width: 300px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.whiteoff{
+    position: relative;
+    top: 200px;
+    right: 200px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    padding: 3px;
+}
+
+.BUGATTI {
+    position: absolute;
+    left: 120px;
+    top: 170px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 36, 172);
+
+}
+.Box{
+
+    padding: 119px;
+    color: blue;
+    background-color: black;
+    position: absolute;
+    font-size: 15px;
+    top: 210px;
+    
+    
+}
+.Buy0{
+    color: black;
+    position: relative;
+    top: 280px;
+    left: 200px;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    text-decoration: none; 
+    
+}
+.Buy0:hover {
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.Name0 {
+    
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 36, 172);
+
+}
+.cut{
+    position: absolute;
+    left: 60px;
+    top: 210px;
+    text-decoration: line-through;
+}
+.cut:hover  {
+    color: black;
+} 
+.current{
+    font-size: 23px;
+    position: absolute;
+    left: 60px;
+    top: 220px;
+}
+.Buy{
+    color: black;
+    
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    text-decoration: none; 
+    position: absolute;
+    left: 220px;
+    top: 250px;
+}
+.Buy:hover {
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.cut2{
+    position: absolute;
+    left: 380px;
+    top: 210px;
+    text-decoration: line-through;
+}
+.current2{
+    font-size: 23px;
+    position: absolute;
+    left: 360px;
+    top: 220px;
+}
+.Buy2{
+    color: black;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    text-decoration: none; 
+    position: absolute;
+    left: 510px;
+    top: 250px;
+}
+.Buy2:hover {
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.MCLAREN {
+    position: absolute;
+    left: 400px;
+    top: 170px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 36, 172);
+
+}
+
+
+.black{
+    height: 120px;
+    width: 300px;
+    padding-bottom: 110px;
+    padding-right: 0px;
+    cursor: pointer;
+    position: absolute;
+    top: 47px;
+    left: 300px;    
+}
+.blackoff{
+    position: relative;
+    top: 160px;
+    left: 90px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    padding: 2px;
+}
+.grey{
+    height: 150px;
+    width: 300px;
+    padding-top: 0px;
+    padding-bottom: 110px;
+    cursor: pointer;
+    position: absolute;
+    top: 44px;
+    left: 640px; 
+}
+.greyoff{
+    position: relative;
+    top: 120px;
+    left: 420px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    padding: 2px;
+}
+.cut3{
+    position: absolute;
+    left: 720px;
+    top: 210px;
+    text-decoration: line-through;
+}
+.current3{
+    font-size: 23px;
+    position: absolute;
+    left: 690px;
+    top: 220px;
+}
+.Buy3{
+    color: black;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    text-decoration: none; 
+    position: absolute;
+    left: 840px;
+    top: 250px;
+}
+.Buy3:hover {
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.Lamborgini3 {
+    
+    position: absolute;
+    left: 700px;
+    top: 180px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 36, 172);
+
+}
+.whitef{
+    height: 150px;
+    width: 290px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    left: 970px; 
+}
+ .whitef:hover{
+    transform: scale(1.0);
+   
+    
+} 
+.whitefoff{
+    position: relative;
+    top: 75px;
+    left: 745px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    padding: 2px;
+}
+.cut4{
+    position: absolute;
+    left: 1040px;
+    top: 210px;
+    text-decoration: line-through;
+}
+.current4{
+    font-size: 23px;
+    position: absolute;
+    left: 1010px;
+    top: 220px;
+}
+.Buy4{
+    color: black;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    text-decoration: none; 
+    position: absolute;
+    left: 1160px;
+    top: 250px;
+}
+.Buy4:hover {
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.FERRARI {
+    position: absolute;
+    left: 1030px;
+    top: 180px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 36, 172);
+
+}
+.yellow {
+    height: 160px;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 330px;
+    left: 10px;
+    
+}
+
+.yellowoff{
+    position: relative;
+    top: 340px;
+    right : 200px; 
+    width: 50px;
+    background-color: blue;
+    color: white;
+    padding: 2px;
+}
+/* .yellow:hover{
+    transform: scale(1.0);
+    border: 1px solid black;
+} */
+
+.MCLAREN2 {
+    position: absolute;
+    left: 45px;
+    top: 480px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 36, 172);
+
+}
+.cut5{
+    position: absolute;
+    left: 60px;
+    top: 520px;
+    text-decoration: line-through;
+}
+.current5{
+    font-size: 23px;
+    position: absolute;
+    left: 40px;
+    top: 530px;
+}
+.Buy5{
+    color: black;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    text-decoration: none; 
+    position: absolute;
+    left: 220px;
+    top: 560px;
+}
+.Buy5:hover {
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.cars6 {
+    height: 150px;
+    width: 300px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    cursor: pointer;
+    position: absolute;
+    top: 340px;
+    left: 300px;
+}
+.cars6off{
+    position: relative;
+    top: 300px;
+    left : 100px; 
+    width: 50px;
+    background-color: blue;
+    color: white;
+    padding: 2px;
+}
+/* .cars6:hover{
+    transform: scale(1.0);
+    border: 1px solid black;
+} */
+.cut6{
+    position: absolute;
+    left: 380px;
+    top: 520px;
+    text-decoration: line-through;
+}
+.current6{
+    font-size: 23px;
+    position: absolute;
+    left: 360px;
+    top: 530px;
+}
+.MCLAREN3{
+    position: absolute;
+    left: 750px;
+    top: 480px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 36, 172);
+
+}
+
+.Buy6{
+    color: black;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    text-decoration: none; 
+    position: absolute;
+    left: 520px;
+    top: 560px;
+}
+.Buy6:hover {
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.cars7 {
+    height: 180px;
+    width: 350px;
+    padding-top: 0px;
+    padding-bottom: 80px;
+    cursor: pointer;
+    position: absolute;
+    top: 325px;
+    left: 630px;
+}
+.cars7off{
+    position: relative;
+    top: 260px;
+    left : 440px; 
+    width: 50px;
+    background-color: blue;
+    color: white;
+    padding: 2px;
+}
+.MCLAREN4{
+    position: absolute;
+    left: 385px;
+    top: 480px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 36, 172);
+
+}
+.cut7{
+    position: absolute;
+    left: 700px;
+    top: 520px;
+    text-decoration: line-through;
+}
+.current7{
+    font-size: 23px;
+    position: absolute;
+    left: 680px;
+    top: 530px;
+}
+
+.Buy7{
+    color: black;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    text-decoration: none; 
+    position: absolute;
+    left: 860px;
+    top: 560px;
+}
+.Buy7:hover {
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.cars8 {
+    height: 160px;
+    width: 310px;
+    padding-top: 0px;
+    padding-bottom: 70px;
+    cursor: pointer;
+    position: absolute;
+    top: 330px;
+    left: 980px;
+}
+.cars8off{
+    position: relative;
+    top: 218px;
+    left : 740px; 
+    width: 50px;
+    background-color: blue;
+    color: white;
+    padding: 2px;
+}
+.MCLAREN5{
+    position: absolute;
+    left: 1050px;
+    top: 480px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 36, 172);
+
+}
+.cut8{
+    position: absolute;
+    left: 1020px;
+    top: 520px;
+    text-decoration: line-through;
+}
+.current8{
+    font-size: 23px;
+    position: absolute;
+    left: 1000px;
+    top: 530px;
+}
+.Buy8{
+    color: black;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    text-decoration: none; 
+    position: absolute;
+    left: 1160px;
+    top: 560px;
+}
+.Buy8:hover {
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.cars9 {
+    height: 200px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 630px;
+    left: 0px;
+}
+.cars9off{
+    position: absolute;
+    top: 830px;
+    left : 239px; 
+    width: 50px;
+    background-color: blue;
+    padding: 100px;
+    color: white;
+    padding: 2px;
+}
+.Name9{
+    position: absolute;
+    left: 60px;
+    top: 800px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 36, 172);
+
+}
+.cut9{
+    position: absolute;
+    left: 60px;
+    top: 830px;
+    text-decoration: line-through;
+}
+.current9{
+    font-size: 23px;
+    position: absolute;
+    left: 40px;
+    top: 840px;
+}
+.Buy9{
+    color: black;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    text-decoration: none; 
+    position: absolute;
+    left: 220px;
+    top: 880px;
+}
+.Buy9:hover {
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.cars10 {
+    height: 170px;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 640px;
+    left: 300px;
+}
+.cars10off{
+    position: absolute;
+    top: 830px;
+    left : 540px; 
+    width: 50px;
+    background-color: blue;
+    padding: 100px;
+    color: white;
+    padding: 2px;
+}
+.Name10 {
+    position: absolute;
+    left: 380px;
+    top: 800px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 36, 172);
+
+}
+.cut10 {
+    position: absolute;
+    left: 380px;
+    top: 830px;
+    text-decoration: line-through;
+}
+.current10 {
+    font-size: 23px;
+    position: absolute;
+    left: 360px;
+    top: 840px;
+}
+.Buy10 {
+    color: black;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    text-decoration: none; 
+    position: absolute;
+    left: 520px;
+    top: 880px;
+}
+.Buy10:hover {
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.cars11 {
+    height: 180px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 640px;
+    left: 670px;
+}
+.cars11off{
+    position: absolute;
+    top: 830px;
+    left : 900px; 
+    width: 50px;
+    background-color: rgb(193, 11, 11);
+    padding: 100px;
+    color: white;
+    padding: 2px;
+}
+.Name11 {
+    position: absolute;
+    left: 760px;
+    top: 800px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 36, 172);
+
+}
+.cut11 {
+    position: absolute;
+    left: 700px;
+    top: 830px;
+    text-decoration: line-through;
+}
+.current11 {
+    font-size: 23px;
+    position: absolute;
+    left: 670px;
+    top: 840px;
+}
+.Buy11 {
+    color: black;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    text-decoration: none; 
+    position: absolute;
+    left: 880px;
+    top: 880px;
+}
+.Buy11:hover {
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.cars12 {
+    height: 160px;
+    width: 310px;
+    padding-top: 0px;
+    padding-bottom: 70px;
+    cursor: pointer;
+    position: absolute;
+    top: 640px;
+    left: 980px;
+}
+.cars12off{
+    position: relative;
+    top: 490px;
+    left : 740px; 
+    width: 50px;
+    background-color: blue;
+    color: white;
+    padding: 2px;
+}
+.Name12{
+    position: absolute;
+    left: 1050px;
+    top: 800px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 36, 172);
+
+}
+.cut12{
+    position: absolute;
+    left: 1020px;
+    top: 830px;
+    text-decoration: line-through;
+}
+.current12{
+    font-size: 23px;
+    position: absolute;
+    left: 1000px;
+    top: 840px;
+}
+.Buy12{
+    color: black;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    text-decoration: none; 
+    position: absolute;
+    left: 1160px;
+    top: 880px;
+}
+.Buy12:hover {
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.gold {
+    text-align: left;
+        background-color: yellow;
+        border: 1px solid #f2f2f2;
+        border-radius: 4px;
+        border-radius: 41px;
+        color: #000;
+        position: relative;
+        left: 20px;
+        top: 0px;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        padding: 6px 15px;
+        position: absolute;
+        
+    }
+    .gold2 {
+        text-align: left;
+            background-color: yellow;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            border-radius: 41px;
+            color: #000;
+            margin-left: 330px;
+            position: absolute;
+            left: 15px;
+            top: 290px;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            padding: 6px 15px;
+            position: absolute;
+            
+        }
+.gold3 {
+    text-align: left;
+    background-color: yellow;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    border-radius: 41px;
+    color: #000;
+    margin-left: 610px;
+    position: absolute;
+    left: 370px;
+    top: 0px;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 6px 15px;
+    position: absolute;
+                
+            }
+.log{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 540px;
+    bottom: 30px;
+}
+footer{
+    font-family: Arial;
+    background-color: #000;
+    height: 400px;
+    width: 1520px;
+    position: absolute;
+    top: 2400px;
+    left: 0px;
+    color: #f2f2f2;
+    text-align: right;
+}
+.foot{
+    margin-right: 100px;
+    margin-top: 50px;
+}
+input{
+    margin-top: 20px;
+}
+.address{
+    height: 50px;
+    width: 300px;
+    border: 1px Solid white;
+    border-radius: 5px;
+}
+.namesss {
+    background-color: white;
+    width: 300px;
+    height: 25px;  
+    
+    
+}
+.phonesss{
+    background-color: white;
+    width: 300px;
+    height: 25px;  
+}
+label{
+    font-family: 'Orbitron', sans-serif; 
+    color: rgb(170, 170, 170); 
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+
+}
+.inp a{
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-right: 110px;
+    text-decoration: none;
+}
+.Submit{
+    position: relative;
+    top: 40px;
+}
+.Submit:hover{
+    background-color: rgba(255,255,255,0.5 ) ;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.time-table{
+    color: #f2f2f2;
+    position: absolute;
+    top: 2500px;
+    left: 200px;
+    font-size: 20px;
+}
+.google
+{
+    filter: grayscale(50%);
+    height: 35px;
+    position: absolute;
+    left: 670px;
+    top: 340px;
+}
+.google:hover{
+    filter: grayscale(0%);
+}
+.facebook{
+    filter: grayscale(50%);
+    height: 35px;
+    position: absolute;
+    left: 750px;
+    top: 340px;
+}
+.facebook:hover{
+    filter: grayscale(0%);
+}
+.twitter{
+    filter: grayscale(50%);
+    transition: filter 0.3s ease;
+    height: 35px;
+    position: absolute;
+    left: 710px;
+    top: 340px;
+}
+.twitter:hover{
+    filter: grayscale(0%);
+}
+

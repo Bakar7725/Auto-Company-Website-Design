@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.slider{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+}
+#slideimage{
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 0px;
+}
+.logo{
+    height: 500px;
+    width: 500px;
+    
+    position: relative;bottom: 180px;
+    
+
+    
+}
+.people{
+    position: absolute;
+    left: 290px;
+    bottom: 150px;
+    font-size: 170px;
+    color: white    ;
+    
+    
+}
+.fa-circle-user:hover{
+    background-color: rgba(255,255,255,0.5 ) ;
+    border: 1px circle black;
+    border-radius:100px ;
+    
+
+    color: Black;
+    
+}
+.Toyota {
+   height: 50px;
+   width: 100px;
+   position: absolute;
+   left: 630px;
+   bottom: 400px;
+    
+}
+.attract {
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 5px; 
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    font-size: 15px;
+    color: rgb(211, 200, 200); 
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    left: 350px;
+    top: 700px;
+    
+}
+.attract:hover{
+    color: rgb(247, 241, 241);
+}
+
+
+.menu li{
+    float: left;
+    list-style-type: none;
+    color: white;
+    position: relative;
+    left: 450px;
+    bottom: 454px;
+    border: 1px solid transparent;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 70px;
+    border-right:1px solid transparent;
+    
+    
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 5px; 
+    color: white; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+
+    font-family: 'Oswald', sans-serif; 
+    font-size: 15px;
+    color: rgb(170, 170, 170); 
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+
+}
+.menu a:hover{
+    
+    color: rgb(247, 241, 241);
+}
+.peop{
+    color: rgb(190, 190, 190); 
+    font-size: 25px;
+    position: absolute;
+    left: 1450px;
+    top: 50px;
+    cursor: pointer;
+   
+}
+.peop:hover {
+        color: rgb(247, 241, 241);
+    }
+
+
+button{
+    background-color:  transparent;
+    border: 2px solid white;
+    border-radius: 0px;
+    color: white;
+    height: 65px;
+    width: 390px;
+    cursor: pointer;
+}
+.in {
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    left: 200px;
+    top: 450px;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif; 
+    font-family: 'Oswald', sans-serif; 
+    font-size: 20px;
+    color: rgb(190, 190, 190); 
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    
+}
+.in:hover{
+    background-color: rgba(255,255,255,0.5 ) ;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.up {
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 360px;
+    left: 200px;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    font-family: 'Oswald', sans-serif; 
+    font-size: 20px;
+    color: rgb(190, 190, 190); 
+    letter-spacing: 1.5px;
+}
+.up:hover{
+    background-color: rgba(255,255,255,0.5 ) ;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.google
+{
+    filter: grayscale(50%);
+    height: 35px;
+    position: absolute;
+    left: 330px;
+    top: 550px;
+}
+.google:hover{
+    filter: grayscale(0%);
+}
+.facebook{
+    filter: grayscale(50%);
+    height: 35px;
+    position: absolute;
+    left: 370px;
+    top: 550px;
+}
+.facebook:hover{
+    filter: grayscale(0%);
+}
+.twitter{
+    filter: grayscale(50%);
+    transition: filter 0.3s ease;
+    height: 35px;
+    position: absolute;
+    left: 410px;
+    top: 550px;
+}
+.twitter:hover{
+    filter: grayscale(0%);
+}
